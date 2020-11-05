@@ -101,4 +101,4 @@ provisioners:
       - "windows/provision-scripts/enable-ec2launch.ps1"
       - "windows/provision-scripts/enable-cleanup.ps1"
       # システム ロケールを日本 (CP932) にする場合は下記を有効にしてください
-      # - "windows/provision-scripts/localize.ps1"
+      - "windows/provision-scripts/localize.ps1"
