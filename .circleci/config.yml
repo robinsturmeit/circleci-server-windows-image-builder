@@ -4,7 +4,7 @@ version: 2
 library:
   build_image: &build_image
     docker:
-      - image: hashicorp/packer:1.4.5
+      - image: hashicorp/packer:1.5.5
     steps:
       - run:
           name: Determine which platform we use
